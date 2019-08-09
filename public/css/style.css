@@ -1,0 +1,356 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus,
+.form-control:focus {
+    border-color: #5d88fe;
+    outline: 0 none;
+    box-shadow: none;
+}
+
+a {
+    color: #5d78ff;
+}
+
+a:hover {
+    color: #0029f6;
+    text-decoration: none;
+}
+
+.link-text {
+    color: #3d4465;
+    font-weight: 500;
+}
+
+.link-text:hover {
+    text-decoration: none;
+    color: #5d78ff;
+    transition: all 0.4s;
+}
+
+.links li a {
+    color: #ffffff;
+}
+
+.links li a:hover {
+    color: #b1b1b1;
+    text-decoration: none;
+}
+
+.nav-item>a:hover {
+    color: #ffffff !important;
+    background-color: #1f2433;
+}
+
+.nav-item .nav-link span>i:first-child {
+    position: relative;
+    bottom: 0;
+    height: 24px;
+    width: 24px;
+    color: #434d6b;
+}
+
+.nav-item .nav-link span {
+    font-weight: 300;
+    color: #b7b8e9;
+    height: 24px;
+    width: 24px;
+    line-height: 32px;
+}
+
+.nav-item .nav-link span:nth-child(2) {
+    margin-left: 5px;
+    color: #b4b8c5;
+}
+
+.sidebar-sticky hr {
+    background-color: #646c9a;
+}
+
+.profile-info {
+    color: #e4e2f4;
+}
+
+.profile-icon span {
+    cursor: pointer;
+}
+
+.profile-icon span > a > svg:hover {
+    fill: #646c9a !important;
+    transition: ease-out 0.4s;
+}
+
+.profile-icon span:nth-child(1):after {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: #5d78ff;
+    position: absolute;
+}
+
+.profile-icon span:nth-child(1).changed:after {
+    content: '';
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: #5d78ff;
+    position: absolute;
+}
+
+.profile-avatar > img {
+    border: 3px solid #e0e0e0;
+}
+
+.profile-name-email span:first-child {
+    font-weight: 500;
+}
+
+.profile-name-email {
+    font-weight: 300;
+}
+
+.profile-name-email div>div>span:nth-child(2) {
+    font-size: 0.75rem;
+}
+
+.profile-name-email div>div>span:nth-child(3) {
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+.block-white {
+    color: #3d4465;
+    box-shadow: 0px 0px 13px 0px rgba(82,63,105,0.05);
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.main-hello {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.footer-info {
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+}
+
+/* group */
+
+.group-name {
+    color: #3d4465;
+    font-size: 1.3rem;
+}
+
+.group-user-info {
+    padding: 25px;
+}
+
+.group-user-info:last-child {
+    margin-bottom: 15px;
+}
+
+.group-user-profile-name a {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #3d4465;
+}
+
+.group-user-profile-name a:hover {
+    cursor: pointer;
+    color: #5d78ff;
+    transition: all 0.3s;
+}
+
+.group-user-profile-email {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #3d4465;
+}
+
+.group-user-profile-email:hover {
+    cursor: pointer;
+    color: #5d78ff;
+    transition: all 0.3s;
+}
+
+.group-user-icon-email i:first-child:hover {
+    cursor: pointer;
+    color: #1ab3a3;
+    transition: all 0.3s;
+}
+
+.group-user-icon {
+    font-size: 1rem;
+    margin: 0 1rem;
+}
+
+.group-user-date {
+    font-size: 0.8rem;
+    font-weight: 500;
+    background-color: rgba(93,120,255,0.1);
+    color: #5d78ff;
+    cursor: text !important;
+    border-radius: 3px;
+}
+
+.group-user-date-start {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #a1a8c3;
+}
+
+.button-submit {
+    font-size: 0.8rem;
+    background: #646c9a;
+    color: #fff;
+    border: 1px solid #646c9a;
+    border-radius: 3px;
+    padding: 7px 13px;
+    font-weight: 700;
+}
+
+.button-submit:hover {
+    cursor: pointer;
+    font-size: 0.8rem;
+    color: #ffffff;
+    background-color: #5d78ff !important;
+    border: 1px solid #5d78ff;
+    border-radius: 3px;
+    padding: 7px 13px;
+    transition: all 0.3s;
+}
+
+.button-default {
+    font-size: 0.8rem;
+    background: transparent;
+    color: #a1a8c3;
+    border: 1px solid #e8ecfa;
+    border-radius: 3px;
+    padding: 7px 13px;
+    font-weight: 700;
+}
+
+.button-default > a {
+    color: #a1a8c3;
+    text-decoration: none;
+}
+
+.button-default > a:hover {
+    color: #ffffff;
+}
+
+.button-default:hover {
+    cursor: pointer;
+    font-size: 0.8rem;
+    color: #ffffff !important;
+    background-color: #5d78ff !important;
+    border: 1px solid #5d78ff;
+    border-radius: 3px;
+    padding: 7px 13px;
+    transition: all 0.3s;
+}
+
+/* practical */
+
+.practical-date {
+    font-size: 0.8rem;
+    color: #918ea7;
+    margin-bottom: 0.75rem;
+    font-weight: 400;
+}
+
+.practical-title-name {
+    color: #646c9a !important;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.practical-description {
+    font-size: 1rem;
+    font-weight: 400 !important;
+    color: #918ea7 !important;
+    margin-bottom: 1rem;
+}
+
+.practical-link {
+    color: #5d78ff;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.practical-link:hover {
+    color: #0029f6;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+/* comments */
+
+.comments > .media:nth-child(n+2) {
+    margin-top: 0 !important;
+    padding-top: 15px !important;
+}
+
+/* notices */
+
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #242939;
+    border-color: #242939;
+}
+
+.custom-file-label::after {
+    content: 'Выбрать' !important;
+}
+
+/* tests */
+
+.test-questions:last-child {
+    padding-bottom: 0 !important;
+}
+
+.footer-info span a {
+    color: #b4b8c5;
+}
+
+.footer-info span a:hover {
+    color: #fff;
+}
+
+@media (min-width: 1200px) and (max-width: 1454px) {
+    .profile-avatar {
+        margin-left: 0;
+    }
+
+    .profile-name-email {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .footer-info {
+        position: relative;
+    }
+}
